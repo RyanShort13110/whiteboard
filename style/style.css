@@ -17,7 +17,7 @@ h1{
   text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
-#canvas{
+#board{
   border: 2px solid black;
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.44);
@@ -25,7 +25,7 @@ h1{
   cursor: crosshair;
 }
 
-.toolbox{
+.controls{
   background: orangered;
   border: 1px solid orangered;
   border-radius: 10px;
@@ -36,7 +36,7 @@ h1{
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-.toolbox > *{
+.controls > *{
   background: #fff;
   border: 2px solid black;
   border-radius: 10px;
@@ -51,11 +51,11 @@ h1{
   width: 50px;
 }
 
-.toolbox > span{
+.controls > span{
   cursor: default;
 }
 
-.toolbox > *:last-child{
+.controls > *:last-child{
   margin-left: auto;
 }
 
